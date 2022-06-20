@@ -1,74 +1,80 @@
 .asterisk::after {
-    content: "*";
-    color: red;
-  }
-  .row{
-    margin-bottom: 15px;
-  }
-  .page{
-    margin-top: 20px;
-    background-color: rgb(150, 140, 140);
-  }
-   label.error {
-    color: red;
-    font-size: 13px;
-  }
-  .error{
-    color: red;
-  }
-  .text{
-    color: red;
-  }
-  .submit{
-    border: none;
-    color: black;
-    padding: 8px 35px; 
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size : 15px;
-    
+  content: "*";
+  color: red;
 }
-.textfield{
-    padding: 8px;
+
+.row {
+  margin: 25px;
 }
-.display_Table{
-    border: 2px solid black;
-    border-collapse: collapse;
-    
-  }
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th {
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-    font-size:80%;
-  }
-  td{
-    border: 1px solid #dddddd;;
-    text-align: center;
-    padding: 8px;
-  }
-  /* table{
-    table-layout: fixed;
-    width: 100%;
-    border: 1px solid; 
-  }
-  td,th{
-    border-style: solid; 
-    /* word-wrap: break-word; */
-  
-    /* border: 1px solid;
-    background-color:plum;
-  
-  }
-  
-  td{
-    border :1px solid;
-  
-  } */ 
+
+.page {
+  margin-top: 20px;
+  background-color: lightgray;
+  border-style: solid;
+}
+
+label.error {
+  color: red;
+  font-size: 13px;
+}
+
+.error {
+  color: red;
+}
+
+.text {
+  color: red;
+}
+
+.submit {
+  border: none;
+  color: black;
+  padding: 8px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: -15px;
+
+}
+
+.textfield {
+  padding: 6px;
+  margin-top: 9px;
+}
+
+.txt {
+  padding: 15px;
+}
+
+.display_Table {
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  font-size: 80%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  ;
+  text-align: center;
+  padding: 8px;
+}
+
+.set {
+  font-size: 12px;
+  padding-left: 14px;
+}
